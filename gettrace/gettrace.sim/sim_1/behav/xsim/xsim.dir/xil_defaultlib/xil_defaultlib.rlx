@@ -1,0 +1,10 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/vivado/CPU_CDE2/gettrace/gettrace.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/vivado/CPU_CDE2/gettrace/src/BRIDGE/bridge_1x2.v,1631002170,verilog,,C:/vivado/CPU_CDE2/gettrace/src/CONFREG/confreg.v,,bridge_1x2,,,,,,,,
+C:/vivado/CPU_CDE2/gettrace/src/CONFREG/confreg.v,1631002170,verilog,,C:/vivado/CPU_CDE2/gettrace/src/soc_lite_top.v,,confreg,,,,,,,,
+C:/vivado/CPU_CDE2/gettrace/src/myCPU/SimpleLACoreWrapRAM.v,1631002170,verilog,,C:/vivado/CPU_CDE2/gettrace/src/BRIDGE/bridge_1x2.v,,SimpleLACore;SimpleLACoreWrapRAM,,,,,,,,
+C:/vivado/CPU_CDE2/gettrace/src/soc_lite_top.v,1631002170,verilog,,C:/vivado/CPU_CDE2/gettrace/src/tb_top.v,,soc_lite_top,,,,,,,,
+C:/vivado/CPU_CDE2/gettrace/src/tb_top.v,1631002170,verilog,,,,tb_top,,,,,,,,

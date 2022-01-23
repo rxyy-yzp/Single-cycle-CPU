@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Nov 24 15:25:14 2021
+# Process ID: 14168
+# Current directory: C:/vivado/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15364 C:\vivado\CPU_CDE2\mycpu_verify\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: C:/vivado/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1/vivado.log
+# Journal file: C:/vivado/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/vivado/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1/mycpu.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Lab-Box/Remote-FPGA/WanYong_Local_Async_LA/mycpu_verify/run_vivado/mycpu_prj1' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'clk_pll_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'data_ram_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'inst_ram_synth_1' not found
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/vivado/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files', nor could it be found using path 'D:/Lab-Box/Remote-FPGA/WanYong_Local_Async_LA/mycpu_verify/run_vivado/mycpu_prj1/mycpu.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 919.430 ; gain = 297.211
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/tools.v C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/regfile.v C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/mycpu_top.v}
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 24 22:39:22 2021...

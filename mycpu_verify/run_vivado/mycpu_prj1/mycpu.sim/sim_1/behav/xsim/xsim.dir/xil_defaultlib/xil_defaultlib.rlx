@@ -1,0 +1,15 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/vivado/CPU_CDE2/mycpu_verify/rtl/BRIDGE/bridge_1x2.v,1637319754,verilog,,C:/vivado/CPU_CDE2/mycpu_verify/rtl/CONFREG/confreg.v,,bridge_1x2,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/rtl/CONFREG/confreg.v,1637472412,verilog,,C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/mycpu_top.v,,confreg,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/alu.v,1638708764,verilog,,C:/vivado/CPU_CDE2/mycpu_verify/rtl/BRIDGE/bridge_1x2.v,,alu,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/mycpu_top.v,1638755432,verilog,,C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/regfile.v,,mycpu_top,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/regfile.v,1631484488,verilog,,C:/vivado/CPU_CDE2/mycpu_verify/rtl/soc_lite_top.v,,regfile,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/tools.v,1638683861,verilog,,C:/vivado/CPU_CDE2/mycpu_verify/testbench/mycpu_tb.v,,decoder_1_2;decoder_2_4;decoder_4_16;decoder_5_32;decoder_6_64,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/rtl/soc_lite_top.v,1637319804,verilog,,C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/tools.v,,soc_lite_top,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/rtl/xilinx_ip/data_ram/data_ram_sim_netlist.v,1638682490,verilog,,C:/vivado/CPU_CDE2/mycpu_verify/rtl/xilinx_ip/inst_ram/inst_ram_sim_netlist.v,,data_ram;data_ram_dist_mem_gen_v8_0_13;data_ram_dist_mem_gen_v8_0_13_synth;data_ram_spram,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/rtl/xilinx_ip/inst_ram/inst_ram_sim_netlist.v,1638683738,verilog,,C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/alu.v,,inst_ram;inst_ram_dist_mem_gen_v8_0_13;inst_ram_dist_mem_gen_v8_0_13_synth;inst_ram_spram,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/vivado/CPU_CDE2/mycpu_verify/testbench/mycpu_tb.v,1637580074,verilog,,,,tb_top,,,,,,,,

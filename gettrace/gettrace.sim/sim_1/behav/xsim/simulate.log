@@ -1,0 +1,39 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+==============================================================
+Test begin!
+----[   5085 ns] Number 8'd01 Functional Test Point PASS!!!
+----[  13595 ns] Number 8'd02 Functional Test Point PASS!!!
+----[  17885 ns] Number 8'd03 Functional Test Point PASS!!!
+        [  22000 ns] Test is running, debug_wb_pc = 0x1c005ca0
+----[  25115 ns] Number 8'd04 Functional Test Point PASS!!!
+----[  26345 ns] Number 8'd05 Functional Test Point PASS!!!
+----[  31015 ns] Number 8'd06 Functional Test Point PASS!!!
+        [  32000 ns] Test is running, debug_wb_pc = 0x1c0042a4
+----[  35365 ns] Number 8'd07 Functional Test Point PASS!!!
+----[  39235 ns] Number 8'd08 Functional Test Point PASS!!!
+        [  42000 ns] Test is running, debug_wb_pc = 0x1c008cd4
+----[  43025 ns] Number 8'd09 Functional Test Point PASS!!!
+----[  47775 ns] Number 8'd10 Functional Test Point PASS!!!
+        [  52000 ns] Test is running, debug_wb_pc = 0x1c0018a4
+----[  52005 ns] Number 8'd11 Functional Test Point PASS!!!
+----[  54615 ns] Number 8'd12 Functional Test Point PASS!!!
+----[  57225 ns] Number 8'd13 Functional Test Point PASS!!!
+        [  62000 ns] Test is running, debug_wb_pc = 0x1c001fd0
+----[  63575 ns] Number 8'd14 Functional Test Point PASS!!!
+----[  69605 ns] Number 8'd15 Functional Test Point PASS!!!
+        [  72000 ns] Test is running, debug_wb_pc = 0x1c002fc0
+----[  81915 ns] Number 8'd16 Functional Test Point PASS!!!
+        [  82000 ns] Test is running, debug_wb_pc = 0x1c0004f4
+----[  90655 ns] Number 8'd17 Functional Test Point PASS!!!
+        [  92000 ns] Test is running, debug_wb_pc = 0x1c00a540
+----[  97685 ns] Number 8'd18 Functional Test Point PASS!!!
+        [ 102000 ns] Test is running, debug_wb_pc = 0x1c006c68
+        [ 112000 ns] Test is running, debug_wb_pc = 0x1c007d58
+----[ 114035 ns] Number 8'd19 Functional Test Point PASS!!!
+----[ 121905 ns] Number 8'd20 Functional Test Point PASS!!!
+        [ 122000 ns] Test is running, debug_wb_pc = 0x1c0004f8
+==============================================================
+gettrace end!
+----Succeed in generating trace file!
+$finish called at time : 122225 ns : File "C:/vivado/CPU_CDE2/gettrace/src/tb_top.v" Line 225

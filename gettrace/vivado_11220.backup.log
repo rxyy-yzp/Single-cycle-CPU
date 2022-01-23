@@ -1,0 +1,147 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Nov 24 15:22:53 2021
+# Process ID: 11220
+# Current directory: C:/vivado/CPU_CDE2/gettrace
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16368 C:\vivado\CPU_CDE2\gettrace\gettrace.xpr
+# Log file: C:/vivado/CPU_CDE2/gettrace/vivado.log
+# Journal file: C:/vivado/CPU_CDE2/gettrace\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/vivado/CPU_CDE2/gettrace/gettrace.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Lab-Box/Remote-FPGA/WanYong_Local_Async_LA/gettrace' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/vivado/CPU_CDE2/gettrace/gettrace.ip_user_files', nor could it be found using path 'D:/Lab-Box/Remote-FPGA/WanYong_Local_Async_LA/gettrace/gettrace.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 679.789 ; gain = 41.020
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/vivado/CPU_CDE2/gettrace/gettrace.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/vivado/CPU_CDE2/gettrace/gettrace.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/gettrace/src/myCPU/SimpleLACoreWrapRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SimpleLACore
+INFO: [VRFC 10-311] analyzing module SimpleLACoreWrapRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/gettrace/src/BRIDGE/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/gettrace/src/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/gettrace/src/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/gettrace/src/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/gettrace/gettrace.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/vivado/CPU_CDE2/gettrace/gettrace.sim/sim_1/behav/xsim'
+"xelab -wto f0bc97f397954f02b45d36a21cc6ee4b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto f0bc97f397954f02b45d36a21cc6ee4b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/vivado/CPU_CDE2/gettrace/src/soc_lite_top.v" Line 60. Module soc_lite_top(SIMULATION=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/vivado/CPU_CDE2/gettrace/src/myCPU/SimpleLACoreWrapRAM.v" Line 11268. Module SimpleLACoreWrapRAM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/vivado/CPU_CDE2/gettrace/src/myCPU/SimpleLACoreWrapRAM.v" Line 1. Module SimpleLACore doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/vivado/CPU_CDE2/gettrace/src/BRIDGE/bridge_1x2.v" Line 50. Module bridge_1x2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/vivado/CPU_CDE2/gettrace/src/CONFREG/confreg.v" Line 74. Module confreg(SIMULATION=1'b1) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SimpleLACore
+Compiling module xil_defaultlib.SimpleLACoreWrapRAM
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module xil_defaultlib.confreg(SIMULATION=1'b1)
+Compiling module xil_defaultlib.soc_lite_top(SIMULATION=1'b1)
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/vivado/CPU_CDE2/gettrace/gettrace.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/vivado/CPU_CDE2/gettrace/gettrace.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Nov 24 15:23:58 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov 24 15:23:58 2021...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 726.129 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/vivado/CPU_CDE2/gettrace/gettrace.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 768.527 ; gain = 42.398
+run all
+==============================================================
+Test begin!
+----[   5085 ns] Number 8'd01 Functional Test Point PASS!!!
+----[  13595 ns] Number 8'd02 Functional Test Point PASS!!!
+----[  17885 ns] Number 8'd03 Functional Test Point PASS!!!
+        [  22000 ns] Test is running, debug_wb_pc = 0x1c005ca0
+----[  25115 ns] Number 8'd04 Functional Test Point PASS!!!
+----[  26345 ns] Number 8'd05 Functional Test Point PASS!!!
+----[  31015 ns] Number 8'd06 Functional Test Point PASS!!!
+        [  32000 ns] Test is running, debug_wb_pc = 0x1c0042a4
+----[  35365 ns] Number 8'd07 Functional Test Point PASS!!!
+----[  39235 ns] Number 8'd08 Functional Test Point PASS!!!
+        [  42000 ns] Test is running, debug_wb_pc = 0x1c008cd4
+----[  43025 ns] Number 8'd09 Functional Test Point PASS!!!
+----[  47775 ns] Number 8'd10 Functional Test Point PASS!!!
+        [  52000 ns] Test is running, debug_wb_pc = 0x1c0018a4
+----[  52005 ns] Number 8'd11 Functional Test Point PASS!!!
+----[  54615 ns] Number 8'd12 Functional Test Point PASS!!!
+----[  57225 ns] Number 8'd13 Functional Test Point PASS!!!
+        [  62000 ns] Test is running, debug_wb_pc = 0x1c001fd0
+----[  63575 ns] Number 8'd14 Functional Test Point PASS!!!
+----[  69605 ns] Number 8'd15 Functional Test Point PASS!!!
+        [  72000 ns] Test is running, debug_wb_pc = 0x1c002fc0
+----[  81915 ns] Number 8'd16 Functional Test Point PASS!!!
+        [  82000 ns] Test is running, debug_wb_pc = 0x1c0004f4
+----[  90655 ns] Number 8'd17 Functional Test Point PASS!!!
+        [  92000 ns] Test is running, debug_wb_pc = 0x1c00a540
+----[  97685 ns] Number 8'd18 Functional Test Point PASS!!!
+        [ 102000 ns] Test is running, debug_wb_pc = 0x1c006c68
+        [ 112000 ns] Test is running, debug_wb_pc = 0x1c007d58
+----[ 114035 ns] Number 8'd19 Functional Test Point PASS!!!
+----[ 121905 ns] Number 8'd20 Functional Test Point PASS!!!
+        [ 122000 ns] Test is running, debug_wb_pc = 0x1c0004f8
+==============================================================
+gettrace end!
+----Succeed in generating trace file!
+$finish called at time : 122225 ns : File "C:/vivado/CPU_CDE2/gettrace/src/tb_top.v" Line 225
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 774.656 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 24 15:48:41 2021...

@@ -1,0 +1,39 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/xilinx_ip/clk_pll/clk_pll_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_pll_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/xilinx_ip/data_ram/data_ram_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-311] analyzing module data_ram_dist_mem_gen_v8_0_13
+INFO: [VRFC 10-311] analyzing module data_ram_dist_mem_gen_v8_0_13_synth
+INFO: [VRFC 10-311] analyzing module data_ram_spram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/xilinx_ip/inst_ram/inst_ram_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-311] analyzing module inst_ram_dist_mem_gen_v8_0_13
+INFO: [VRFC 10-311] analyzing module inst_ram_dist_mem_gen_v8_0_13_synth
+INFO: [VRFC 10-311] analyzing module inst_ram_spram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/BRIDGE/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2458] undeclared symbol btn_key_row, assumed default net type wire [C:/vivado/CPU_CDE2/mycpu_verify/rtl/soc_lite_top.v:87]
+INFO: [VRFC 10-2458] undeclared symbol btn_step, assumed default net type wire [C:/vivado/CPU_CDE2/mycpu_verify/rtl/soc_lite_top.v:88]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/rtl/mycpu/tools.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_1_2
+INFO: [VRFC 10-311] analyzing module decoder_2_4
+INFO: [VRFC 10-311] analyzing module decoder_4_16
+INFO: [VRFC 10-311] analyzing module decoder_5_32
+INFO: [VRFC 10-311] analyzing module decoder_6_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'glbl' [C:/vivado/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/glbl.v:6]
